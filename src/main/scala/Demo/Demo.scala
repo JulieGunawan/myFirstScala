@@ -8,6 +8,9 @@ object Demo {
       println(s"$name is $age years old");
       //to use type interpolation
       println(f"$name%s is $age%d years old")
+      //use raw interpolation
+      println(s"Hello \nworld");
+      println(raw"Hello \nWorld");
     }
 
 
