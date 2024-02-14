@@ -2,17 +2,18 @@ package Demo
 
 object Demo {
     def main(args: Array[String]): Unit = {
-      val name="mark";
-      val age = 18;
-      println("Hello World! "+ name + " who is " + age + " years old ");
-      println(s"$name is $age years old");
-      //to use type interpolation
-      println(f"$name%s is $age%d years old")
-      //use raw interpolation
-      println(s"Hello \nworld");
-      println(raw"Hello \nWorld");
+      val x= 20;
+      var res = "";
+      if (x == 20) {
+        res = "x == 20";
+      }
+      else {
+        res ="x!=20";
+      }
+      println(res);
+
+      val res2 = if (x==20) "x==20" else "x!=20";
+      println(res2);
     }
-
-
 
 }
