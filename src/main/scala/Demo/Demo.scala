@@ -10,9 +10,9 @@ object Demo {
         //x++; this is not allowed in scala
       }
 
-      do {
-        println("y= " + y);
-        y +=1;
-      } while (y<10);
+//      do {
+//        println("y= " + y);
+//        y +=1;
+//      } while (y<10);
     }
 }
